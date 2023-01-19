@@ -1,0 +1,51 @@
+.stateCards-container {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+.StateCard-background {
+  width: 250px;
+  height: 200px;
+  left: 150px;
+  top: 176px;
+  border-radius: 15px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.background-color {
+  width: 250px;
+  height: 200px;
+  left: 150px;
+  top: 176px;
+  border-radius: 15px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-bottom: 50px;
+}
+
+.Confirmed {
+  background: #331427;
+  color: #ff073a;
+}
+.Active {
+  background: #132240;
+  color: #007bff;
+}
+.Recovered {
+  background: #182829;
+  color: #28a745;
+}
+.Deceased {
+  background: #1c1c2b;
+  color: #6c757d;
+}
